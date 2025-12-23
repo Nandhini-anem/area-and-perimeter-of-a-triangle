@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+    float a, b, c, h;
+    printf("Enter three sides: ");
+    scanf("%f%f%f", &a, &b, &c);
+    printf("Enter height: ");
+    scanf("%f", &h);
+    printf("Area = %.2f\n", 0.5 * a * h);
+    printf("Perimeter = %.2f", a + b + c);
+    return 0;
+}
